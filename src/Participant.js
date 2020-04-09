@@ -4,11 +4,11 @@ import React from "react";
 // afficher les props name et hasToken
 
 function Participant(props) {
-  return (
+  return(  
     <li>
       {props.name} {props.hasToken ? "a un jeton" : "n'a pas de jeton"}
     </li>
-  );
+  )
 }
 
 export default Participant;
